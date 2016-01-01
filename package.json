@@ -1,0 +1,27 @@
+{
+  "name": "babel-preset-es3-compatibility",
+  "version": "1.0.0",
+  "description": "Babel preset to maximize compatibility with legacy JS engines",
+  "main": "index.js",
+  "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-transform-object-assign": "*",
+    "babel-plugin-transform-es3-member-expression-literals": "*",
+    "babel-plugin-transform-es3-property-literals": "*",
+    "babel-plugin-transform-jscript": "*",
+    "babel-plugin-transform-undefined-to-void": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstacruz/babel-preset-es3-compatibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rstacruz/babel-preset-es3-compatibility/issues"
+  },
+  "homepage": "https://github.com/rstacruz/babel-preset-es3-compatibility#readme"
+}
